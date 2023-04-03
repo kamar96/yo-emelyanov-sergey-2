@@ -1,10 +1,68 @@
-/*
-  Код ниже нужно удалить, он добавлен просто для примера
-*/
 .footer {
-  background-color: #151515;
-  color: #fff;
-  padding: 40px 0;
-  text-align: center;
-  height: 100px;
+  background: #434343;
+}
+
+.nav {
+  padding-top: 42px;
+  padding-bottom: 40px;
+}
+
+.nav_menu-name {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #AAAAAA;
+}
+
+.nav_menu-chapt-btn {
+  background: black;
+  color: white;
+  padding: 9px 21px;
+}
+
+.nav_menu-chapt {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.info_name {
+  color: #FFFFFF;
+}
+
+.info_copyright {
+  color: #FFFFFF;
+}
+
+.info_design {
+  color: #AAAAAA;
+}
+
+.nav_menu {
+  display: flex;
+  column-gap: 203px;
+}
+
+.info {
+  display: inline-flex;
+  gap: 146px
+}
+
+.nav_menu-chapt-input {
+  padding: 9px 52px;
+}
+
+.nav_menu-chapt-con {
+  padding-left: 31px;
+}
+
+.social {
+  display: flex;
+  column-gap: 10px;
+  padding-left: 0;
 }

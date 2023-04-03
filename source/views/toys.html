@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+
+    <title>DL Academy</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <script>
+      var docElement = document.documentElement;
+      docElement.className = docElement.className.replace(/\bno-js\b/, '') + ' js';
+    </script>
+
+    <!-- Favicon -->
+
+    <!-- build:css -->
+    <link href="css/style.min.css" rel="stylesheet">
+    <!-- endbuild -->
+  </head>
+  <body>
+    @@include('blocks/header.html')
+    <main class="container toys">
+        <section class="container toys__nav">
+            <h2 class="toys_nav-title">
+                Toy for kids</h2> Home <img src="../img/icon/nav_vector.png" class="toys_nav-img" alt="Right_Arrow"> Catalog
+            <img src="../img/icon/nav_vector.png" class="toys_nav-img" alt="Right_Arrow"> Toys
+        </section>
+        <section class="container toys__form">
+            <form action="#" method="get" class="forma">
+                <fieldset class="form__param">
+                    <ul>
+                    <p>Cost</p>
+                    <li><input type="range" min="0" max="500" class="range">
+                    <p class="range-0"><label for="0">0</label>    
+                    <label for="500" class="range-500">500</label></p></li></ul>
+                    <ul>
+                    <p>Color</p>
+                    <li><input type="checkbox" name="black" id=""> Black</li>
+                    <li><input type="checkbox" name="blue" id=""> Blue</li>
+                    <li><input type="checkbox" name="green" id=""> Green</li>
+                    <li><input type="checkbox" name="white" id=""> White</li>
+                    </ul>
+                    <ul>
+                    <p>Delivery</p>  
+                    <li><input type="radio"> Free shipping</li>
+                    <li><input type="radio"> Fast shipping</li>
+                    </ul>
+                    <ul class="knopki">
+                    <p>Amount</p>
+                    <li><label class="checkbox-btn">
+                        <label class="checkbox-btn">
+                            <input type="checkbox" checked>
+                            <span>0-5</span>
+                        </label>
+                        <label class="checkbox-btn">
+                            <input type="checkbox">
+                            <span>5-10</span>
+                        </label>
+                        <label class="checkbox-btn">
+                            <input type="checkbox">
+                            <span>10-20</span>
+                        </label></li>
+                        <li><input type="submit" value="APPLY" class="apply-toys"></li>
+                    </label>
+                    </ul>
+                    </fieldset>
+            </form>
+        </section>
+        <section class="container toys__catalog">
+            <ul class="toys__catalog-ul">
+                <li class="toys__catalog-item"><img src="../img/shark.png" class="toys__catalog-img" alt="shark"><p>SHARKY BEAN BAG CHAIR COVER</p><p><b>$60.00 USD</b></p></li>
+                <li class="toys__catalog-item"><img src="../img/brass.png" class="toys__catalog-img" alt="brass"><p>BRASS DECO FRAMES</p><p><b>$66.00 USD</b></p></li>
+                <li class="toys__catalog-item"><img src="../img/cibo.png" class="toys__catalog-img" alt="cibo"><p>CIBO FULL APRON</p><p><b>$60.00 USD</b></p></li>
+                <li class="toys__catalog-item"><img src="../img/gatcha.png" class="toys__catalog-img" alt="gatcha"><p>GATCHA GATCHA GUMBALL MACHINE</p><p><b>$56.00 USD</b></p></li>
+                <li class="toys__catalog-item"><img src="../img/candle.png" class="toys__catalog-img" alt="candle"><p>CHRISTMAS ADVENT SCENTED CANDLE</p><p><b>$29.00 USD</b></p></li>
+                <li class="toys__catalog-item"><img src="../img/tea.png" class="toys__catalog-img" alt="tea"><p>TANGLE SPINNING TEA LIGHT</p><p><b>$56.00 USD</b></p></li>
+            </ul>
+        </section>
+        <section class="container toys__pages">
+        <ul class="toys__pages-ul">
+            <li><a href="#" class="toys__pages-vector"><img src="../img/icon/LVector.png" class="toys__pages-img" alt="Left_Arrow"></a></li>
+            <li><a href="#" class="toys__pages-one">1</a></li>
+            <li><a href="#" class="toys__pages-one">2</a></li>
+            <li><a href="#" class="toys__pages-one">3</a></li>
+            <li><a href="#" class="toys__pages-one">4</a></li>
+            <li><a href="#" class="toys__pages-vector"><img src="../img/icon/RVector.png" class="toys__pages-img" alt="Right_Arrow"></a></li>
+        </ul>
+        </section>
+    </main>
+      @@include('blocks/footer.html')
+    <script src="js/app.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+
+    <title>DL Academy</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <script>
+      var docElement = document.documentElement;
+      docElement.className = docElement.className.replace(/\bno-js\b/, '') + ' js';
+    </script>
+
+    <!-- Favicon -->
+
+    <!-- build:css -->
+    <link href="css/style.min.css" rel="stylesheet">
+    <!-- endbuild -->
+  </head>
+  <body>
+    @@include('blocks/header.html')
+    <main class="container main">
+        <section class="container">
+            <h1 class="contact__title">Contact Us</h1>
+            <ul class="navig">
+                <li class="home">Home</li>
+                <li class="arrow"><img src="../img/icon/nav_vector.png" class="blog__nav-img" alt="Right_Arrow"></li>
+                <li class="contact-us">Contact Us</li>
+            </ul>
+        </section>
+        <section class="container contact">
+            <div class="container contact-form">
+            <form class="form" action="form.php" method="post" target="_blank">
+                <label>Name: <p><input type="text" name="name" class="contact__form-name"></p></label>
+            <div class="contacts">
+                <label class="phone">Phone: <input type="text" name="number" class="contact__form-input"></label>
+                <label class="email">Email: <input type="text" name="email" class="contact__form-input"></label>
+            </div>
+            <div class="message">
+                <label><p>Message:</p><input type="text" name="message" class="contact__form-mes"></label>
+                <label class="click"><p class="click"><input type="checkbox" class="contact__form-chekbox">By clicking on the button, you consent to the processing of your personal data</p></label>
+            </div>
+            <div>
+                <input type="submit" value="SUBMIT" class="contact__form-btn">
+            </div>
+            </form>   
+        </div>
+        <div class="container contact__form">
+            <ul class="contact__form-info">
+            <li class="contact__form-info">Our support team are on-hand to assist with any issues you are experiencing.</li>
+            <li class="contact__form-info">Please use the form to contact us with your needs. Send us a message and we'll respond as soon as possible.</li>
+            <li class="contact__form-info1">An expert is waiting to help you!</li>
+            </ul>
+        </div>
+    </section>
+    </main>
+      @@include('blocks/footer.html')
+    <script src="js/app.js" defer></script>
+  </body>
+</html>

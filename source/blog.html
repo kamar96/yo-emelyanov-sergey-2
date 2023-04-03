@@ -39,12 +39,24 @@
             </ul>
         </section>
         <section class="container toys__pages">
-            <a href="#" class="toys__pages-vectorL"><img src="../img/icon/LVector.png" alt="Left_Arrow"></a>
-            <a href="#" class="toys__pages-one">1</a>
-            <a href="#" class="toys__pages-one">2</a>
-            <a href="#" class="toys__pages-one">3</a>
-            <a href="#" class="toys__pages-one">4</a>
-            <a href="#" class="toys__pages-vectorR"><img src="../img/icon/RVector.png" alt="Right_Arrow"></a>
+            @@include('blocks/link.html',{
+                'class': "toys__pages-vectorL"
+            })
+            @@include('blocks/link.html',{
+                'class': "toys__pages-one"
+            })
+            @@include('blocks/link.html',{
+                'class': "toys__pages-two"
+            })
+            @@include('blocks/link.html',{
+                'class': "toys__pages-three"
+            })
+            @@include('blocks/link.html',{
+                'class': "toys__pages-four"
+            })
+            @@include('blocks/link.html',{
+                'class': "toys__pages-vectorR"
+            })
         </section>
     </main>
       @@include('blocks/footer.html')
