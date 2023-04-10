@@ -1,0 +1,23 @@
+.header {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #1E0606;
+    padding-bottom: 60px;
+    margin-top: 50px;
+    &__list-one {
+        display: flex;
+        flex-direction: row;
+        column-gap: 17px;
+        align-items: center;
+    }
+    &__list-item5 {
+        display: inline-block;
+        align-content: flex-end;
+    }
+}

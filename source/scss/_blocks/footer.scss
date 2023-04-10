@@ -5,60 +5,51 @@
 .nav {
   padding-top: 42px;
   padding-bottom: 40px;
-}
-
-.nav_menu-name {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
-  color: #AAAAAA;
-}
-
-.nav_menu-chapt-btn {
-  background: black;
-  color: white;
-  padding: 9px 21px;
-}
-
-.nav_menu-chapt {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
-  color: #FFFFFF;
-}
-
-.info_name {
-  color: #FFFFFF;
-}
-
-.info_copyright {
-  color: #FFFFFF;
-}
-
-.info_design {
-  color: #AAAAAA;
-}
-
-.nav_menu {
+  &_menu {
   display: flex;
   column-gap: 203px;
+    &-name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #AAAAAA;
+    }
+    &-chapt {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      color: #FFFFFF;
+      &-btn {
+        background: black;
+        color: white;
+        padding: 9px 21px;
+      }
+      &-input {
+        padding: 9px 52px;
+      }
+      &-con {
+        padding-left: 31px;
+      }
+    }
+  }
 }
 
 .info {
   display: inline-flex;
-  gap: 146px
-}
-
-.nav_menu-chapt-input {
-  padding: 9px 52px;
-}
-
-.nav_menu-chapt-con {
-  padding-left: 31px;
+  gap: 146px;
+  &_name {
+    color: #FFFFFF;
+  }
+  &_copyright {
+    color: #FFFFFF;
+  }
+  &_design {
+    color: #AAAAAA;
+  }
 }
 
 .social {
