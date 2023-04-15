@@ -11,13 +11,20 @@
     padding-bottom: 60px;
     margin-top: 50px;
     &__list-one {
+        margin-left: 109px;
         display: flex;
         flex-direction: row;
-        column-gap: 17px;
+        column-gap: 20px;
         align-items: center;
-    }
+      }
     &__list-item5 {
         display: inline-block;
         align-content: flex-end;
     }
+    &__list-item4 {
+        padding-right: 678px;
+      }
+    &__list-one5 {
+        padding-left: 677.93px;
+      }
 }
