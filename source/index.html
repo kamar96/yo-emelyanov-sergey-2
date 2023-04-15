@@ -36,7 +36,7 @@
           <div class="container block-2">
           <h1 class="banner_title">THE OOH NOO COLLECTION</h1>
           <p class="banner_text">Designed in Slovenia</p>
-          <button class="banner_title-btn">EXPLORE NOW</button>
+          @@include('blocks/button.html',{ 'text': "EXPLORE NOW",})
           </div>
           <div class="container block-3">
           <img src="img/monster.png" class="banner_title-img" alt="picture">
@@ -45,7 +45,7 @@
          <p class="container banner_title-info">Free (continental) USA shipping on all orders of $100 USD or more!</p>
       </section>
       <section class="container category">
-          <h2 class="category_title">Category Products</h2>
+          @@include('blocks/title.html', { 'title' : "Category Products", 'class' : "category_title" })
           <ul class="main__list">
               <li class="bg-item-one"></li>
               <li class="main__list-item-one">
@@ -78,7 +78,7 @@
           <div class="delivery">
               <img src="img/women.svg" class="woman" width="480" height="559" alt="Photo">
             <ul class="delivery_list">
-              <li><h2 class="delivery_name">Delivery</h2></li>
+              <li>@@include('blocks/title.html', { 'title' : "Delivery", 'class' : "delivery_name" })</li>
               <li><h3 class="delivery_name-two">Delivery</h3></li>
               <li class="bg-delivery"></li>
               <li class="delivery_list-garant">Guarantee</li>
@@ -86,9 +86,7 @@
               <li class="delivery_list-aboutme">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</li>
               <li class="delivery_list-start">What started as an outlet to deal  with the traumatic loss of my husband, dlk has now become a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!</li>
               <li class="delivery_list-btn">
-                @@include('blocks/link.html',{
-                'class': "delivery_btn"
-              })</li>
+                @@include('blocks/link.html',{ 'text': "LEARN MORE",})</li>
             </ul>
           </div>
       </section>
@@ -103,43 +101,19 @@
       <section class="container contain">
           <ul class="contain_text">
               <li class="bg_text"></li>
-              <li><h2 class="contain_text-heading">Design Life Kids</h2></li>
+              <li>@@include('blocks/title.html', { 'title' : "Design Life Kids", 'class' : "contain_text-heading" })</li>
               <li class="contain_text-aboutus">About Us</li>
               <li class="contain_text-some">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</li>
-              <li>
-                @@include('blocks/link.html',{
-                'class': "contain__btn"
-                })</li>
+              <li>@@include('blocks/link.html',{ 'text': "BUY NOW",})</li>
           </ul>
           <ul class="contain_contacts">
               <li class="bg_contacts"></li>
-              <li><h2 class="contain_contacts-name">Contacts</h2></li>
+              <li>@@include('blocks/title.html', { 'title' : "Contacts", 'class' : "contain_contacts-name" })</li>
               <li class="contain_contacts-one"><p class="contain_text-story">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</li> 
               <li><img src="img/maps.png" class="contain_contacts-img" alt="maps"></li>
               </ul>
       </section>
-          <div class="popup">
-            <div class="popup_wr">
-              <button class="close-popup"><img src="img/icon/close.png" alt="close"></button>
-            <div class="contact__form">
-              <form class="form" action="form.php" method="post" target="_blank">
-                  <label>Name: <p><input type="text" name="name" class="contact__form-name"></p></label>
-              <div class="contacts">
-                  <label>Phone: <input type="text" name="number" class="contact__form-input"></label>
-                  <label>Email: <input type="text" name="email" class="contact__form-input"></label>
-              </div>
-              <div class="message">
-                  <label><p>Message:</p><input type="text" name="message" class="contact__form-mes"></label>
-                  <label class="click"><p><input type="checkbox" class="contact__form-chekbox">By clicking on the button, you consent to the processing of your personal data</p></label>
-              </div>
-              <div class="none">
-                  <input type="submit" value="SUBMIT" class="contact__form-btn">
-              </div>
-              </form>
-            </div>
-            </div>
-              <div class="overlay"></div>   
-              </div>
+      @@include('blocks/popup.html')
       </section>
   </main>
       @@include('blocks/footer.html')
