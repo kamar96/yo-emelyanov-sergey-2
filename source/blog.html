@@ -25,7 +25,7 @@
     @@include('blocks/header.html')
     <main class="container blog">
         <section class="container blog__nav">
-            <h2 class="blog__nav-title">Blog</h2> 
+            @@include('blocks/title.html', { 'title' : "Blog", 'class' : "blog__nav-title" }) 
             <p class="home">Home<img src="../img/icon/nav_vector.png" class="blog__nav-img" alt="Right_Arrow">Blog</p>
         </section>
         <section class="container blog__list">
@@ -39,22 +39,22 @@
             </ul>
         </section>
         <section class="container toys__pages">
-            @@include('blocks/link.html',{
+            @@include('blocks/pagination.html',{
                 'class': "toys__pages-vectorL"
             })
-            @@include('blocks/link.html',{
+            @@include('blocks/pagination.html',{
                 'class': "toys__pages-one"
             })
-            @@include('blocks/link.html',{
+            @@include('blocks/pagination.html',{
                 'class': "toys__pages-two"
             })
-            @@include('blocks/link.html',{
+            @@include('blocks/pagination.html',{
                 'class': "toys__pages-three"
             })
-            @@include('blocks/link.html',{
+            @@include('blocks/pagination.html',{
                 'class': "toys__pages-four"
             })
-            @@include('blocks/link.html',{
+            @@include('blocks/pagination.html',{
                 'class': "toys__pages-vectorR"
             })
         </section>

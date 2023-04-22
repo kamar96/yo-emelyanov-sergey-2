@@ -1,0 +1,303 @@
+.category__nav {
+    margin-bottom: 50px;
+    &-title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 49px;
+        text-transform: uppercase;
+        color: #1E0606;
+      }
+  }
+  
+  .home {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 15px;
+  }
+  
+  .category__listup {
+    display: flex;
+    column-gap: 20px;
+    &-item {
+        display: flex;
+        flex-direction: column;
+      }
+  }
+  
+  .category__listdown {
+    display: flex;
+    justify-content: flex-end ;
+    column-gap: 20px;
+    margin-right: 210px;
+    &-item {
+        display: inline;
+        flex-direction: row;
+      }
+  }
+  
+  .discription {
+    margin-top: 440px;
+    margin-left: 220px;
+    margin-bottom: 55px;
+    &_info3 {
+        display: flex;
+        max-width: 680px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #1E0606;
+        margin-left: 18px;
+      }
+    &_info2 {
+        display: flex;
+        max-width: 680px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #1E0606;
+        margin-left: 18px;
+      }
+    &_in {
+        display: grid;
+        gap: 15px;
+      }
+    &_info {
+        display: flex;
+        max-width: 680px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #1E0606;
+        margin-left: 18px;
+      }
+    &__title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 45px;
+        text-transform: uppercase;
+        color: #1E0606;
+        margin-left: 20px;
+        word-spacing: 4px;
+        letter-spacing: 0px;
+      }
+  }
+
+  
+  .category__listup-appa {
+    z-index: 3;
+    position: relative;
+    top: 11px;
+  }
+  
+  .bg-kids {
+    position: absolute;
+      width: 260px;
+      height: 250px;
+      left: 73px;
+      top: 288px;
+      background: #DBE4DB;
+      z-index: 1;
+  }
+  
+  .bg-shop {
+    position: absolute;
+      width: 260px;
+      height: 250px;
+      left: 403px;
+      top: 288px;
+      background: #EADDD3;
+      z-index: 1;
+  }
+  
+  .bg-toys {
+    position: absolute;
+    width: 260px;
+    height: 250px;
+    left: 737px;
+    top: 288px;
+    background: #F8F2DA;
+    z-index: 1;
+  }
+  
+  .bg-acc {
+    position: absolute;
+    width: 260px;
+    height: 250px;
+    left: 323px;
+    top: 603px;
+    background: #D5D4E1;
+    z-index: 1;
+  }
+  
+  .bg-sale {
+    position: absolute;
+      width: 260px;
+      height: 250px;
+      left: 621px;
+      top: 603px;
+      background: #F3D0DB;
+      z-index: 1;
+  }
+  
+  .bg-adult {
+    position: absolute;
+      width: 260px;
+      height: 250px;
+      left: 921px;
+      top: 603px;
+      background: #E5EAF8;
+      z-index: 1;
+  }
+  
+  .category__listup-appk {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
+    top: 375px;
+    left: 101px;
+    width: 190px;
+    position: absolute;
+    z-index: 3;
+  }
+  
+  .category__listup-holi {
+    position: absolute;
+      left: 434px;
+      top: 287px;
+      z-index: 3;
+  }
+  
+  .category__listup-hol {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
+    position: absolute;
+    left: 484px;
+    top: 378px;
+    width: 131px;
+    z-index: 3;
+  }
+  
+  .category__listup-toys {
+    position: absolute;
+      left: 732px;
+      top: 271px;
+      z-index: 3;
+  }
+  
+  .category__listup-toy {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
+    position: absolute;
+    left: 820px;
+    top: 382px;
+    z-index: 3;
+  }
+  
+  .category__listdown-acc {
+    position: absolute;
+      left: 24.6%;
+      top: 604px;
+      z-index: 3;
+  }
+  
+  .category__listdown-acces {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
+    position: absolute;
+    left: 356px;
+    top: 712px;
+    z-index: 3;
+  }
+  
+  .category__listdown-sale{
+    position: absolute;
+    left: 626px;
+    top: 605px;
+    z-index: 3;
+  }
+  
+  .category__listdown-sal{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
+    position: absolute;
+    left: 715px;
+    top: 712px;
+    z-index: 3;
+  }
+  
+  .category__listdown-app {
+    position: absolute;
+    right: 156px;
+    top: 627px;
+    z-index: 3;
+  }
+  
+  .category__listdown-appa {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
+    position: absolute;
+    top: 712px;
+    right: 227px;
+    left: 980px;
+    z-index: 3;
+  }

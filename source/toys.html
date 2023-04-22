@@ -25,8 +25,8 @@
     @@include('blocks/header.html')
     <main class="container toys">
         <section class="container toys__nav">
-            <h2 class="toys_nav-title">
-                Toy for kids</h2> Home <img src="../img/icon/nav_vector.png" class="toys_nav-img" alt="Right_Arrow"> Catalog
+            @@include('blocks/title.html', { 'title' : "Toy for kids", 'class' : "toys_nav-title" }) 
+            Home <img src="../img/icon/nav_vector.png" class="toys_nav-img" alt="Right_Arrow"> Catalog
             <img src="../img/icon/nav_vector.png" class="toys_nav-img" alt="Right_Arrow"> Toys
         </section>
         <section class="container toys__form">
@@ -82,22 +82,22 @@
         </section>
         <section class="container toys__pages">
         <ul class="toys__pages-ul">
-            <li>@@include('blocks/link.html',{
+            <li>@@include('blocks/pagination.html',{
                 'class': "toys__pages-vectorL"
             })</a></li>
-            <li>@@include('blocks/link.html',{
+            <li>@@include('blocks/pagination.html',{
                 'class': "toys__pages-one"
             })</li>
-            <li>@@include('blocks/link.html',{
+            <li>@@include('blocks/pagination.html',{
                 'class': "toys__pages-two"
             })</li>
-            <li>@@include('blocks/link.html',{
+            <li>@@include('blocks/pagination.html',{
                 'class': "toys__pages-three"
             })</li>
-            <li>@@include('blocks/link.html',{
+            <li>@@include('blocks/pagination.html',{
                 'class': "toys__pages-four"
             })</li>
-            <li>@@include('blocks/link.html',{
+            <li>@@include('blocks/pagination.html',{
                 'class': "toys__pages-vectorR"
             })</li>
         </ul>

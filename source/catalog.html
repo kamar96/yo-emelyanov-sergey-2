@@ -25,7 +25,7 @@
     @@include('blocks/header.html')
     <main class="container category">
         <section class="container category__nav">
-            <h2 class="category_nav-title">Category Products</h2>
+            @@include('blocks/title.html', { 'title' : "Category Products", 'class' : "category_nav-title" })
             <p class="home">Home<img src="../img/icon/nav_vector.png" class="blog__nav-img" alt="Right_Arrow">Catalog</p>
         </section>
         <section class="container">
