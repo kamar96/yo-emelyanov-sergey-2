@@ -18,7 +18,7 @@
 @import "_blocks/container";
 @import "_blocks/footer";
 @import "_blocks/header";
-
+@import "_blocks/button";
 /*
   Ниже пример подключения других блоков
 
@@ -159,7 +159,6 @@
   margin: auto;
   align-items: center;
   &_btn {
-    display: flex;
     flex-direction: row;
     align-items: center;
     padding: 9px 22px;

@@ -1,0 +1,15 @@
+.delivery_btn {
+    &:hover {
+        background: #C29974;
+        border: none;
+        transition: 0.4s ease-out;
+    }
+    &:active{
+        background: #CFAF91;
+        border: none;
+    }
+    &:disabled{
+        background: #C7C1C1;
+        border: none;
+    }
+}

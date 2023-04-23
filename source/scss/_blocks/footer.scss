@@ -43,6 +43,49 @@
   gap: 146px;
   &_name {
     color: #FFFFFF;
+    &:hover{
+      color: #C29974;
+    }
+    &-star1{
+      &:hover{
+      color: #836E5B;
+      }
+      &:active{
+        cursor: none;
+      }
+    }
+    &-star2{
+      &:hover{
+        color: #836E5B;
+        }
+      &:active{
+        cursor: none;
+      }
+    }
+    &-star3{
+      &:hover{
+        color: #836E5B;
+      }
+      &:active{
+        cursor: none;
+      }
+    }
+    &-star4{
+      &:hover{
+        color: #836E5B;
+      }
+      &:active{
+        cursor: none;
+      }
+    }
+    &-star5{
+      &:hover{
+        color: #836E5B;
+      }
+      &:active{
+        cursor: none;
+      }
+    }
   }
   &_copyright {
     color: #FFFFFF;
