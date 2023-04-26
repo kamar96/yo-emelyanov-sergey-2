@@ -56,12 +56,15 @@
       color: #C29974;
     }
     &-star1{
+      color: #AAAAAA;
       &:hover{
-      color: #836E5B;
+      background: #836E5B;
+      opacity: 0.5;
       }
       &:active{
         cursor: none;
         color: #C29974;
+        opacity: 0.2;
       }
     }
     &-star2{
