@@ -31,14 +31,16 @@
   block-name__element-name--modificator
 */
 
-.banner_button-btn-one {
-  background: rgba(30, 6, 6, 0.6);
-}
 
-.banner_button-btn-two 
-.banner_button-btn-three 
-.banner_button-btn-four {
-  background: white;
+.banner_button-btn {
+  background: #D6CAC2;
+  width: 31px;
+  height: 3px;
+  border: none;
+  transition: 0.4s ease-out;
+  &:active, &:hover {
+    background: #725F5B;
+  }
 }
 
 .banner {
@@ -269,10 +271,17 @@
       text-transform: uppercase;
       color: #FFFFFF;
       text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
+      &:hover{
+        text-decoration: underline;
+      }
+      &:active{
+        text-decoration: underline;
+        cursor: none;
+      }
     }
     &-item-text-two {
       position: absolute;
-      left: 30.79%;
+      left: 34.79%;
       right: 65.14%;
       top: 32.3%;
       font-family: 'Montserrat';
@@ -284,10 +293,17 @@
       text-transform: uppercase;
       color: #FFFFFF;
       text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
+      &:hover{
+        text-decoration: underline;
+      }
+      &:active{
+        text-decoration: underline;
+        cursor: none;
+      }
     }
     &-item-text-three {
       position: absolute;
-      left: 36.79%;
+      left: 43.79%;
       right: 30.14%;
       top: 33.3%;
       font-family: 'Montserrat';
@@ -299,10 +315,17 @@
       text-transform: uppercase;
       color: #FFFFFF;
       text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
+      &:hover{
+        text-decoration: underline;
+      }
+      &:active{
+        text-decoration: underline;
+        cursor: none;
+      }
     }
     &-item-text-four {
       position: absolute;
-      left: 64.79%;
+      left: 70.79%;
       right: 54.14%;
       top: 33.11%;
       font-family: 'Montserrat';
@@ -314,6 +337,13 @@
       text-transform: uppercase;
       color: #FFFFFF;
       text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
+      &:hover{
+        text-decoration: underline;
+      }
+      &:active{
+        text-decoration: underline;
+        cursor: none;
+      }
     }
   }
 }
@@ -327,6 +357,7 @@
   column-gap: 127px; 
   width: 1180px;
   height: 61px;
+  margin-bottom: 90px;
 }
 
 .contain {

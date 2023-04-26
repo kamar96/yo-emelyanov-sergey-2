@@ -23,6 +23,12 @@
       font-size: 16px;
       line-height: 22px;
       color: #FFFFFF;
+      &:hover{
+        opacity: 0.5;
+      }
+      &:active{
+        opacity: 0.2;
+      }
       &-btn {
         background: black;
         color: white;
@@ -43,6 +49,9 @@
   gap: 146px;
   &_name {
     color: #FFFFFF;
+    &-company{
+      display: flex;
+    }
     &:hover{
       color: #C29974;
     }
@@ -52,6 +61,7 @@
       }
       &:active{
         cursor: none;
+        color: #C29974;
       }
     }
     &-star2{
@@ -60,6 +70,7 @@
         }
       &:active{
         cursor: none;
+        color: #C29974;
       }
     }
     &-star3{
@@ -68,6 +79,7 @@
       }
       &:active{
         cursor: none;
+        color: #C29974;
       }
     }
     &-star4{
@@ -76,6 +88,7 @@
       }
       &:active{
         cursor: none;
+        color: #C29974;
       }
     }
     &-star5{
@@ -84,6 +97,7 @@
       }
       &:active{
         cursor: none;
+        color: #C29974;
       }
     }
   }
