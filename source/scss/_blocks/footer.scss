@@ -108,7 +108,15 @@
     color: #FFFFFF;
   }
   &_design {
-    color: #AAAAAA;
+    color: #A2A2A2;
+    &:hover{
+      color: #FFFFFF;
+      text-decoration: underline;
+    }
+    &:active{
+      color: #FFFFFF;
+      cursor: none;
+    }
   }
 }
 
