@@ -1,4 +1,4 @@
-.category__nav {
+.tovar__nav {
     margin-bottom: 50px;
     &-title {
         font-family: 'Montserrat';
@@ -26,7 +26,7 @@
     margin-top: 15px;
   }
   
-  .category__listup {
+  .tovar__listup {
     display: flex;
     column-gap: 20px;
     &-item {
@@ -35,7 +35,7 @@
       }
   }
   
-  .category__listdown {
+  .tovar__listdown {
     display: flex;
     justify-content: flex-end ;
     column-gap: 20px;
@@ -47,9 +47,9 @@
   }
   
   .discription {
-    margin-top: 440px;
-    margin-left: 220px;
     margin-bottom: 55px;
+    margin-left: 200px;
+    margin-top: 600px;
     &_info3 {
         display: flex;
         max-width: 680px;
@@ -101,11 +101,17 @@
       }
   }
 
+  .catalog {
+  color: #1E0606;
+  opacity: 0.5;
+  margin-left: -20px;
+  }
   
-  .category__listup-appa {
+  .tovar__listup-appa {
+   left: 79px;
+    position: absolute;
+    top: 308px;
     z-index: 3;
-    position: relative;
-    top: 11px;
   }
   
   .bg-kids {
@@ -168,7 +174,7 @@
       z-index: 1;
   }
   
-  .category__listup-appk {
+  .tovar__listup-appk {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -179,20 +185,30 @@
     color: #FFFFFF;
     text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
     top: 375px;
-    left: 101px;
+    left: 7.79%;
     width: 190px;
     position: absolute;
     z-index: 3;
+    &:hover{
+      position: absolute;
+      background: #E5EAF8;
+      opacity: 0.9;
+    }
+    &:active{
+      position: absolute;
+      background: #E5EAF8;
+      opacity: 0.67;
+    }
   }
   
-  .category__listup-holi {
+  .tovar__listup-holi {
     position: absolute;
       left: 434px;
       top: 287px;
       z-index: 3;
   }
   
-  .category__listup-hol {
+  .tovar__listup-hol {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -207,16 +223,26 @@
     top: 378px;
     width: 131px;
     z-index: 3;
+    &:hover{
+      position: absolute;
+      background: #E5EAF8;
+      opacity: 0.9;
+    }
+    &:active{
+      position: absolute;
+      background: #E5EAF8;
+      opacity: 0.67;
+    }
   }
   
-  .category__listup-toys {
+  .tovar__listup-toys {
     position: absolute;
       left: 732px;
       top: 271px;
       z-index: 3;
   }
   
-  .category__listup-toy {
+  .tovar__listup-toy {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -230,16 +256,26 @@
     left: 820px;
     top: 382px;
     z-index: 3;
+    &:hover{
+      position: absolute;
+      background: #E5EAF8;
+      opacity: 0.9;
+    }
+    &:active{
+      position: absolute;
+      background: #E5EAF8;
+      opacity: 0.67;
+    }
   }
   
-  .category__listdown-acc {
+  .tovar__listdown-acc {
     position: absolute;
       left: 24.6%;
       top: 604px;
       z-index: 3;
   }
   
-  .category__listdown-acces {
+  .tovar__listdown-acces {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -253,16 +289,26 @@
     left: 356px;
     top: 712px;
     z-index: 3;
+    &:hover{
+      position: absolute;
+      background: #E5EAF8;
+      opacity: 0.9;
+    }
+    &:active{
+      position: absolute;
+      background: #E5EAF8;
+      opacity: 0.67;
+    }
   }
   
-  .category__listdown-sale{
+  .tovar__listdown-sale{
     position: absolute;
     left: 626px;
     top: 605px;
     z-index: 3;
   }
   
-  .category__listdown-sal{
+  .tovar__listdown-sal{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -276,16 +322,26 @@
     left: 715px;
     top: 712px;
     z-index: 3;
+    &:hover{
+      position: absolute;
+      background: #E5EAF8;
+      opacity: 0.9;
+    }
+    &:active{
+      position: absolute;
+      background: #E5EAF8;
+      opacity: 0.67;
+    }
   }
   
-  .category__listdown-app {
+  .tovar__listdown-app {
     position: absolute;
     right: 156px;
     top: 627px;
     z-index: 3;
   }
   
-  .category__listdown-appa {
+  .tovar__listdown-appa {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -300,4 +356,14 @@
     right: 227px;
     left: 980px;
     z-index: 3;
+    &:hover{
+      position: absolute;
+      background: #E5EAF8;
+      opacity: 0.9;
+    }
+    &:active{
+      position: absolute;
+      background: #E5EAF8;
+      opacity: 0.67;
+    }
   }

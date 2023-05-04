@@ -20,6 +20,7 @@
 @import "_blocks/header";
 @import "_blocks/button";
 @import "_blocks/link";
+@import "catalog";
 /*
   Ниже пример подключения других блоков
 
@@ -58,14 +59,16 @@
     color: rgba(30, 6, 6, 0.05);
   }
   &_title {
-    display: flex;
-    margin-top: 89px;
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 700;
+    color: #1e0606;
+    display: flex;
     font-size: 40px;
+    font-weight: 700;
     line-height: 110%;
-    color: #1E0606;
+    margin-top: 89px;
+    overflow-wrap: break-word;
+    width: 64%;
     &-info {
       font-style: normal;
       font-weight: 700;
@@ -74,8 +77,6 @@
       text-align: center;
       text-transform: uppercase;
       background: #C29974;
-      margin: auto;
-      margin-inline: 81px;
       color: white;
       padding: 11px;
     }
@@ -258,19 +259,19 @@
     margin-top: 90px;
     margin: auto;
     &-item-text-one {
-      position: absolute;
-      left: 5.79%;
-      right: 69.14%;
-      top: 31.15%;
-      font-family: 'Montserrat';
+      color: #fff;
+      font-family: Montserrat;
+      font-size: 26px;
       font-style: normal;
       font-weight: 700;
-      font-size: 26px;
+      left: 13.79%;
       line-height: 32px;
+      position: absolute;
+      right: 76.14%;
       text-align: center;
+      text-shadow: 0 0 40px rgb(147 3 3 / 25%);
       text-transform: uppercase;
-      color: #FFFFFF;
-      text-shadow: 0px 0px 40px rgb(147 3 3 / 25%);
+      top: 31.15%;
       &:hover{
         text-decoration: underline;
       }
