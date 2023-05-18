@@ -1,0 +1,61 @@
+.scene__anim {
+    &-cloud {
+        width: 1263px;
+    }
+    &-city {
+        width: 1263px;
+    }
+    &-flashlight {
+        position: absolute;
+        top: 336px;
+        right: 41px;
+        &-fon1{
+            left: 498px;
+            position: absolute;
+            top: 364px;
+        }
+        &-fon2{
+            right: 0px;
+            position: absolute;
+            top: 364px;
+        }
+    }
+    &-woman-sit {
+        position: absolute;
+        top: 681px;
+        left: 313px;
+    }
+    &-cases {
+        position: absolute;
+        top: 853px;
+        left: 308px;
+        z-index: 1;
+    }
+    &-man {
+        left: 422px;
+        position: absolute;
+        top: 594px;
+    }
+    &-car {
+        &-one {
+            position: absolute;
+            top: 643px;
+            left: 75px;
+        }
+        &-two {
+            left: 406px;
+            position: absolute;
+            top: 646px;
+        }
+        &-three {
+            left: 768px;
+            position: absolute;
+            top: 665px;
+        }
+        &-four {
+            position: absolute;
+            right: -115px;
+            top: 616px;
+        }
+    }
+}

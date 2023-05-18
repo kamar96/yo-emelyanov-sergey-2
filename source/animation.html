@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+
+    <title>Animation</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <script>
+      var docElement = document.documentElement;
+      docElement.className = docElement.className.replace(/\bno-js\b/, '') + ' js';
+    </script>
+
+    <!-- Favicon -->
+
+    <!-- build:css -->
+    <link href="css/style.min.css" rel="stylesheet">
+    <!-- endbuild -->
+  </head>
+  <body>
+    @@include('blocks/header.html')
+    <main class="container scene">
+        <section class="container scene__nav">
+            @@include('blocks/title.html', { 'title' : "Animation scene", 'class' : "scene__nav-title" }) 
+            <p class="home">Home<img src="../img/icon/nav_vector.png" class="scene__nav-img" alt="Right_Arrow">Animation</p>
+        </section>
+        <section class="scene__anim">
+            <img class="scene__anim-cloud" src="img/scene/Cloudsandsun.png" alt="cloud">
+            <img class="scene__anim-city" src="img/scene/Others elements.png" alt="city">
+            <img class="scene__anim-car-one" src="img/scene/Car one.png" alt="car">
+            <img class="scene__anim-car-two" src="img/scene/Car two.png" alt="car">
+            <img class="scene__anim-car-three" src="img/scene/Car three.png" alt="car">
+            <img class="scene__anim-car-four" src="img/scene/Car four.png" alt="car">
+            <img class="scene__anim-flashlight-fon1" src="img/scene/Group.png" alt="flashlight">
+            <img class="scene__anim-flashlight-fon2" src="img/scene/Group.png" alt="flashlight">
+            <img class="scene__anim-flashlight" src="img/scene/Group (1).png" alt="flashlight">
+            <img class="scene__anim-taxi" src="img/scene/Car.png" alt="taxi">
+            <img class="scene__anim-cases" src="img/scene/Suitcases.png" alt="cases">
+            <img class="scene__anim-woman-sit" src="img/scene/Body.png" alt="woman">
+            <img class="scene__anim-man" src="img/scene/Group 165.png" alt="man">
+        </section>
+    </main>
+    @@include('blocks/footer.html')
+    <script src="js/app.js" defer></script>
+  </body>
+</html>
