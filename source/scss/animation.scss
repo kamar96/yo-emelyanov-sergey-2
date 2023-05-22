@@ -1,11 +1,12 @@
 .scene__anim {
+    margin-bottom: 70px;
     &-taxi{
-        transition: 0.4s;
+        transition: 0.4s ease-out;
         position: absolute;
         right: -324px;
         top: 564px;
         z-index: 1;
-        animation: taxi 10s 5s infinite;
+        animation: taxi 20s 1s infinite;
         &-speak{
             position: absolute;
             top: 764px;
@@ -41,12 +42,14 @@
         position: absolute;
         top: 681px;
         left: 313px;
+        z-index: 2;
         }
         &-speak{
         left: 223px;
         position: absolute;
         top: 575px;
         animation: speak 10s 5s infinite;
+        z-index: 2;
         }
     }
     &-cases {
@@ -56,6 +59,7 @@
         z-index: 1;
     }
     &-man {
+        z-index: 2;
         left: 422px;
         position: absolute;
         top: 594px;
@@ -144,8 +148,10 @@
         right: 20px;
     }
     70%{
-        &-speak{
-            opacity: 1;
-        }
+        right: 550px;
+    }
+    100%{
+        right: 1300px;
+        opaciy: 0;
     }
 }
