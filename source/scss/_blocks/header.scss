@@ -10,6 +10,15 @@
     color: #1E0606;
     padding-bottom: 60px;
     margin-top: 50px;  
+    &__list-item-animation{
+      &:hover{
+        opacity: 0.5;
+      }
+      &:active{
+        opacity: 0.1;
+      }
+      transition: opacity 0.4s ease-out;
+    }
     &__list-item1{
       &:hover{
         opacity: 0.5;
@@ -75,7 +84,7 @@
         align-content: flex-end;
     }
     &__list-item4 {
-        padding-right: 678px;
+        padding-right: 586px;
       }
     &__list-one5 {
         padding-left: 677.93px;

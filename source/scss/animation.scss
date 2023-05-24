@@ -63,6 +63,20 @@
         left: 422px;
         position: absolute;
         top: 594px;
+        &-speak{
+            left: 408px;
+            position: absolute;
+            top: 509px;
+            z-index: 1;
+            animation: speak-man 8s 2s infinite;
+        }
+    }
+    &-hand {
+        z-index: 1;
+        left: 422px;
+        position: absolute;
+        top: 556px;
+        animation: hand 7s 1s infinite;
     }
     &-car {
         transition: 0.4s;
@@ -153,5 +167,29 @@
     100%{
         right: 1300px;
         opaciy: 0;
+    }
+}
+
+@keyframes speak-man {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes hand {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
     }
 }
